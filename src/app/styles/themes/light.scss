@@ -1,6 +1,10 @@
 .app.light {
   --bg-color: #e8e8ea; // Цвет заднего фона
+  --inverted-bg-color: #041c65;
 
   --primary-color: #041c65; // Акцентный цвет
-  --secondary-color: #0449e0; // Второстепенный цвет
+  --secondary-color: #0452ff; // Второстепенный цвет
+
+  --inverted-primary-color: #d8dadf;
+  --inverted-secondary-color: #5777c6;
 }

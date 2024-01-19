@@ -1,6 +1,10 @@
 .app.dark {
-  --bg-color: #22252a; // Цвет заднего фона
+  --bg-color: #282c35; // Цвет заднего фона
+  --inverted-bg-color: #21242b;
 
   --primary-color: #d8dadf; // Акцентный цвет
   --secondary-color: #5777c6; // Второстепенный цвет
+
+  --inverted-primary-color: #545f7b;
+  --inverted-secondary-color: #3654a1;
 }
