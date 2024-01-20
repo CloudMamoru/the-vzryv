@@ -1,9 +1,11 @@
+import { useTranslation } from 'react-i18next';
+
 const MainPage = () => {
+  const { t } = useTranslation('main');
   return (
     <div>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sequi, officia nam
-      minus eaque ipsam, quas odit perspiciatis natus molestiae est alias recusandae
-      ratione, magni quisquam quibusdam laudantium velit explicabo!
+      {t('Главная страница')}
+      {t('Главная страница')}
     </div>
   );
 };
